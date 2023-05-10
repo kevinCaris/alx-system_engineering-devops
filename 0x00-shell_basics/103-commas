@@ -1,4 +1,2 @@
 #!/bin/bash
-ls -1a | sed 's/^/"/; s/$/",/' | tr -d '\n' | sed 's/,$/\n/'
-
-
+ls -pamX | LC_COLLATE=C sort -d -f && echo
