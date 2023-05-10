@@ -1,3 +1,2 @@
 #!/bin/bash
-parent_dir=$(cd .. && pwd)
-cp -u *.html "$parent_dir"
+cp $(find . -maxdepth 1 -name "*.html" -newer ../ -print) ../
