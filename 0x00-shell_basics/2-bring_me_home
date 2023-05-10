@@ -1,2 +1,2 @@
 #!/bin/bash
-cd "$(getent passwd "$(id -u)" | cut -d: -f6)"
+source ./2-bring_me_home
