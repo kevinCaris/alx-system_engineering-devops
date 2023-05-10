@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -pamX | LC_COLLATE=C sort -d -f | awk 'BEGIN{ORS="\n"} {print} END{print ""}'
+ls -apm | LC_COLLATE=C sort -d -f | awk 'BEGIN{ORS="\n"} {print} END{print ""}'
