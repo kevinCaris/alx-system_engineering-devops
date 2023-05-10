@@ -1,3 +1,4 @@
 #!/bin/bash
-ls -1a | sed -e 's/\(.*\)\/*$/\1\//g' | sort -n | sed -e '$!s/$/,/' -e '$s/$/\n/'
+ls -1a | sed 's/^/"/; s/$/",/' | tr -d '\n' | sed 's/,$/\n/'
+
 
