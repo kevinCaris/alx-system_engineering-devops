@@ -1,0 +1,3 @@
+#!/bin/bash
+parent_dir=$(cd .. && pwd)
+cp -u *.html "$parent_dir"
