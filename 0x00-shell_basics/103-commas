@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -pamX | LC_COLLATE=C sort -d -f && echo
+ls -pamX | LC_COLLATE=C sort -d -f | cat;echo
