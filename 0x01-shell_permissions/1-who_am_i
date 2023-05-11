@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Nom d'utilisateur effectif: $(id -un)"
+echo "Nom d'utilisateur effectif: $USER"
