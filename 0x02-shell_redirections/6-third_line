@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR==3' iacta
+file="iacta" && mapfile -t lines < "$file" && echo "${lines[2]}"
