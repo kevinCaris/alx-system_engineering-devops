@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -la > ls_cwd_content 2>/dev/null ; ls -la > ls_cwd_content
