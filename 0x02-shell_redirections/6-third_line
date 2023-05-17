@@ -1,2 +1,2 @@
 #!/bin/bash
-file="iacta" && mapfile -t lines < "$file" && echo "${lines[2]}"
+head -3 | tail -3 iacta
